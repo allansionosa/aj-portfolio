@@ -113,6 +113,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: 'HMICare Hospital Website',
+      href: 'https://hmicare.comlogikph.com/',
+      // dates: 'Jan 2024 - Feb 2024',
+      active: true,
+      description:
+        'This is another hospital website where you can book with different type of appointments and you can login to view your results online.',
+      technologies: [
+        'Next.js',
+        'Typescript',
+        'TailwindCSS',
+        'shacn/ui',
+        '.NET',
+        'MSSQL',
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://new.mlmc.com.ph/',
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: '/hmicare.png',
+      // video: '#',
+    },
+    {
       title: 'MLMC Hospital Website',
       href: 'https://new.mlmc.com.ph/',
       // dates: 'Jan 2024 - Feb 2024',
