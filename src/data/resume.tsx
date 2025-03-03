@@ -8,9 +8,9 @@ export const DATA = {
   location: 'Quezon City, CP Garcia, U.P Campus',
   locationLink: 'https://maps.app.goo.gl/ZMBNyYt1VLErZdoz7',
   description:
-    'A dedicated Front-end Web Developer with a passion for learning new things.',
+    'A dedicated Full-Stack Web Developer with a passion for learning new things.',
   summary:
-    'I have a robust understanding of both front-end and back-end technologies, making me skilled in full-stack development. My curiosity and eagerness to learn have driven me to continually expand my expertise, particularly in web development. This has allowed me to stay current with industry trends and best practices, enhancing my ability to create innovative and effective solutions.',
+    'I have a robust understanding of both full-stack and back-end technologies, making me skilled in full-stack development. My curiosity and eagerness to learn have driven me to continually expand my expertise, particularly in web development. This has allowed me to stay current with industry trends and best practices, enhancing my ability to create innovative and effective solutions.',
   avatarUrl: '/me.jpg',
   skills: [
     'React',
