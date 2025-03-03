@@ -204,5 +204,30 @@ export const DATA = {
       image: '/nhd.png',
       // video: '#',
     },
+    {
+      title: 'E-Charting',
+      href: 'https://echarting.comlogikph.com',
+      // dates: 'Jan 2024 - Feb 2024',
+      active: true,
+      description:
+        'This is e-Charting System, replacing traditional paper records with secure, real-time digital documentation. It enhances accuracy, accessibility, and workflow efficiency through automated data entry and visual analytics.',
+      technologies: [
+        'React.js',
+        'Typescript',
+        'TailwindCSS',
+        'Shadcn/ui',
+        '.NET',
+        'MSSQL',
+      ],
+      links: [
+        {
+          type: 'Web Application',
+          href: 'https://echarting.comlogikph.com',
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: '/echarting.png',
+      // video: '#',
+    },
   ],
 } as const;
