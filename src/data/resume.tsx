@@ -1,5 +1,5 @@
 import { Icons } from '@/components/icons';
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from 'lucide-react';
+import { CodeIcon, HomeIcon, NotebookIcon } from 'lucide-react';
 
 export const DATA = {
   name: 'Allan',
@@ -28,7 +28,6 @@ export const DATA = {
     { href: '/', icon: HomeIcon, label: 'Home' },
     { href: '/blog', icon: NotebookIcon, label: 'Blog' },
     { href: '/projects', icon: CodeIcon, label: 'Projects' },
-    { href: '#', icon: PencilLine, label: 'Notes' },
   ],
   contact: {
     email: 'allansionosa@gmail.com',
@@ -67,7 +66,7 @@ export const DATA = {
     {
       company: 'Comlogik Business Systems',
       badges: [],
-      location: 'Remote',
+      location: 'On-site',
       title: 'Front-end Web Developer',
       href: 'https://comlogikph.com/',
       logoUrl: '/comlogik.png',
@@ -79,7 +78,7 @@ export const DATA = {
     {
       company: 'JRA Technologies inc.',
       badges: [],
-      location: 'Remote',
+      location: 'On-site',
       title: 'Software Engineer',
       href: '#',
       logoUrl: '/jra.jpg',
@@ -91,7 +90,7 @@ export const DATA = {
     {
       company: 'Pandora technology solutions inc.',
       badges: [],
-      location: 'Remote',
+      location: 'On-site',
       title: 'Web Developer',
       href: '#',
       logoUrl: '#',
@@ -178,6 +177,31 @@ export const DATA = {
         },
       ],
       image: '/todolist.png',
+      // video: '#',
+    },
+    {
+      title: 'Next Health Diagnostics',
+      href: 'https://nexthealth.ph',
+      // dates: 'Jan 2024 - Feb 2024',
+      active: true,
+      description:
+        'Hospital website where you can book with different type of appointments and you can login to view your results online.',
+      technologies: [
+        'Next.js',
+        'Typescript',
+        'TailwindCSS',
+        'Ant D',
+        '.NET',
+        'MSSQL',
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://nexthealth.ph',
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: '/nhd.png',
       // video: '#',
     },
   ],
