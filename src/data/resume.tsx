@@ -113,7 +113,7 @@ export const DATA = {
   projects: [
     {
       title: 'E-Charting',
-      href: 'https://echarting.comlogikph.com',
+      href: 'https://echartingdemo.comlogikph.com',
       // dates: 'Jan 2024 - Feb 2024',
       active: true,
       description:
@@ -129,7 +129,7 @@ export const DATA = {
       links: [
         {
           type: 'Web Application',
-          href: 'https://echarting.comlogikph.com',
+          href: 'https://echartingdemo.comlogikph.com',
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -179,7 +179,7 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: 'https://new.mlmc.com.ph/',
+          href: 'https://www.hmicare.com.ph/',
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -190,7 +190,7 @@ export const DATA = {
       title: 'MLMC Hospital Website',
       href: 'https://new.mlmc.com.ph/',
       // dates: 'Jan 2024 - Feb 2024',
-      active: true,
+      active: false,
       description:
         'This is my very first project here in Comlogik. A hospital website where you can book an appointment and you can login to see your results.',
       technologies: [
@@ -212,22 +212,47 @@ export const DATA = {
       // video: '#',
     },
     {
-      title: 'To do App',
-      href: 'https://todo-app-gules-five.vercel.app/',
+      title: 'WEBHIMS',
+      href: 'https://webhims.comlogikph.com/',
       // dates: 'Jan 2024 - Feb 2024',
       active: true,
       description:
-        'Like the other react developers, I tried creating a To do List App. but this time, its a PWA.',
-      technologies: ['React.js', 'Typescript', 'Emotion CSS', 'MUI'],
+        'This is a Hospital Information Management System (HIMS/HIS) is a comprehensive, integrated, digital platform that streamlines administrative, financial, and clinical operations in healthcare organizations. It enables efficient, centralized management of patient records, scheduling, billing, and resource allocation. Key components include patient registration, pharmacy, lab, and radiology management. ',
+      technologies: [
+        'React.js',
+        'Typescript',
+        'TailwindCSS',
+        'Antdesign',
+        '.NET',
+        'MSSQL',
+      ],
       links: [
         {
-          type: 'Progressive Web App',
-          href: 'https://todo-nzwutltj0-aj-sionosas-projects.vercel.app/',
+          type: 'Web Application',
+          href: 'https://webhims.comlogikph.com/',
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: '/todolist.png',
+      image: '/webhims.png',
       // video: '#',
     },
+    // {
+    //   title: 'To do App',
+    //   href: 'https://todo-app-gules-five.vercel.app/',
+    //   // dates: 'Jan 2024 - Feb 2024',
+    //   active: true,
+    //   description:
+    //     'Like the other react developers, I tried creating a To do List App. but this time, its a PWA.',
+    //   technologies: ['React.js', 'Typescript', 'Emotion CSS', 'MUI'],
+    //   links: [
+    //     {
+    //       type: 'Progressive Web App',
+    //       href: 'https://todo-nzwutltj0-aj-sionosas-projects.vercel.app/',
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: '/todolist.png',
+    //   // video: '#',
+    // },
   ],
 } as const;
